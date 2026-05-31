@@ -26,7 +26,7 @@ export function BentoGrid() {
           className="col-span-1 md:col-span-2 row-span-1 md:row-span-2 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-6 flex flex-col justify-between group hover:shadow-lg transition-all"
         >
           <div>
-             <h2 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100">Viplove Itankar</h2>
+             <h2 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100">Viplao Itankar</h2>
              <p className="text-zinc-500 dark:text-zinc-400 mt-2">
                Network Administrator & Full Stack Developer. Passionate about Cyber Security, AI, and building secure web architectures.
              </p>

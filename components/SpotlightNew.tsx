@@ -82,7 +82,7 @@ export function SpotlightNew() {
         // layout
         className="text-center mb-8"
       >
-        <h1 className="text-3xl font-bold tracking-tight mb-2">Viplove Itankar</h1>
+        <h1 className="text-3xl font-bold tracking-tight mb-2">Viplao Itankar</h1>
         <p className="text-zinc-500 dark:text-zinc-400">Software Developer & Network Admin</p>
       </motion.div>
 
@@ -189,7 +189,7 @@ export function SpotlightNew() {
                 <div className="flex flex-col sm:flex-row items-center gap-6">
                   <div className="w-20 h-20 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-2xl font-bold">VI</div>
                   <div className="text-center sm:text-left">
-                    <h2 className="text-xl font-bold">Viplove Itankar</h2>
+                    <h2 className="text-xl font-bold">Viplao Itankar</h2>
                     <p className="text-zinc-500">Network Admin & Full Stack Developer</p>
                   </div>
                 </div>

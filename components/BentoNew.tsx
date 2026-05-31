@@ -22,7 +22,7 @@ import { projects, experiences, technologies, connect, services } from "@/public
 export function BentoNew() {
   return (
     <div className="max-w-6xl mx-auto p-4 pb-20 font-sans">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[auto]">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-auto">
 
         {/* 1. HERO / INTRO SECTION */}
         <motion.div
@@ -43,7 +43,7 @@ export function BentoNew() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-zinc-800 dark:text-zinc-100 mb-4 tracking-tight">
-              Viplove Itankar
+              Viplao Itankar
             </h2>
             <p className="text-zinc-500 dark:text-zinc-400 text-lg leading-relaxed max-w-md">
               Combining expertise in <strong>Network Security</strong> with <strong>Full Stack Development</strong>.
@@ -171,7 +171,7 @@ export function BentoNew() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="col-span-1 row-span-1 rounded-3xl bg-gradient-to-br from-blue-600 to-indigo-600 p-6 text-white flex flex-col justify-center items-center text-center">
+          className="col-span-1 row-span-1 rounded-3xl bg-linear-to-br from-blue-600 to-indigo-600 p-6 text-white flex flex-col justify-center items-center text-center">
           <Code2 size={32} className="mb-2 opacity-80" />
           <p className="text-xs font-medium opacity-80">Check out more on</p>
           <a href="https://github.com/vip847/" target="_blank" className="font-bold text-lg hover:underline mt-1">GitHub Profile ↗</a>

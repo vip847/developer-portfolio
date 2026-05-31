@@ -22,7 +22,7 @@ const STORY_SECTIONS = [
     id: "intro",
     type: "intro",
     title: "Hello, World.",
-    content: "I'm Viplove Itankar. I bridge the gap between Network Security and Full Stack Development.",
+    content: "I'm Viplao Itankar. I bridge the gap between Network Security and Full Stack Development.",
     color: "bg-blue-500",
   },
   {
@@ -108,7 +108,7 @@ export function ScrollyPortfolio() {
       <div className="md:hidden fixed top-0 left-0 w-full bg-white/90 dark:bg-black/90 backdrop-blur border-b border-zinc-200 dark:border-zinc-800 p-4 z-40 flex justify-between items-center shadow-sm">
          <div>
             <div className="text-[10px] font-bold uppercase text-zinc-500">Current Section</div>
-            <div className="font-bold text-sm truncate max-w-[200px]">{STORY_SECTIONS[activeStep].title}</div>
+            <div className="font-bold text-sm truncate max-w-50">{STORY_SECTIONS[activeStep].title}</div>
          </div>
          <div className="text-xs font-mono text-zinc-400">
             {activeStep + 1} / {STORY_SECTIONS.length}
@@ -242,7 +242,7 @@ function VisualStage({ activeStep, data }: any) {
             exit={{ opacity: 0, scale: 0.9 }}
             className="text-center"
           >
-             <div className="w-48 h-48 mx-auto bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-6xl font-bold text-white mb-8 shadow-[0_0_40px_rgba(37,99,235,0.3)]">
+             <div className="w-48 h-48 mx-auto bg-linear-to-tr from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-6xl font-bold text-white mb-8 shadow-[0_0_40px_rgba(37,99,235,0.3)]">
                 VI
              </div>
              <div className="flex flex-wrap justify-center gap-2 max-w-xs mx-auto">
@@ -325,7 +325,7 @@ function VisualStage({ activeStep, data }: any) {
                 <div className="w-3 h-3 rounded-full bg-yellow-500" />
                 <div className="w-3 h-3 rounded-full bg-green-500" />
                 <div className="ml-4 flex-1 text-center">
-                    <div className="inline-block px-3 py-1 bg-zinc-900 rounded text-[10px] text-zinc-400 font-mono opacity-50 truncate max-w-[150px]">
+                    <div className="inline-block px-3 py-1 bg-zinc-900 rounded text-[10px] text-zinc-400 font-mono opacity-50 truncate max-w-37.5">
                         {data.data.source_code_link.replace('https://github.com/', '')}
                     </div>
                 </div>
@@ -339,7 +339,7 @@ function VisualStage({ activeStep, data }: any) {
                     className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-500" 
                     fill 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-transparent opacity-90" />
+                <div className="absolute inset-0 bg-linear-to-t from-zinc-900 via-transparent to-transparent opacity-90" />
                 
                 <div className="absolute bottom-4 left-4 right-4">
                     <h3 className="font-bold text-xl text-white mb-1">{data.data.name}</h3>
@@ -391,7 +391,7 @@ function VisualStage({ activeStep, data }: any) {
                        </div>
                        <div>
                           <div className="font-bold text-sm">{item.title}</div>
-                          <div className="text-xs text-zinc-500 truncate max-w-[200px]">{item.url}</div>
+                          <div className="text-xs text-zinc-500 truncate max-w-50">{item.url}</div>
                        </div>
                     </motion.a>
                  ))}
@@ -406,7 +406,7 @@ function VisualStage({ activeStep, data }: any) {
              initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
              animate={{ opacity: 1, scale: 1, rotate: 0 }}
              exit={{ opacity: 0, scale: 0.8, rotate: 10 }}
-             className="w-80 h-80 bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900 rounded-3xl flex flex-col items-center justify-center border border-zinc-200 dark:border-zinc-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500"
+             className="w-80 h-80 bg-linear-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900 rounded-3xl flex flex-col items-center justify-center border border-zinc-200 dark:border-zinc-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500"
            >
               <Terminal size={64} className="text-zinc-400 mb-4" />
               <div className="text-2xl font-bold">About Me</div>

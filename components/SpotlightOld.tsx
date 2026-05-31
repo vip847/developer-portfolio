@@ -236,7 +236,7 @@ export function SpotlightInterface() {
                   <div className="flex items-center gap-4">
                     <div className="w-16 h-16 rounded-full bg-linear-to-tr from-blue-500 to-purple-500 flex items-center justify-center text-2xl font-bold text-white">VI</div>
                     <div>
-                      <h2 className="text-xl font-bold">Viplove Itankar</h2>
+                      <h2 className="text-xl font-bold">Viplao Itankar</h2>
                       <p className="text-zinc-500">Software Developer & Network Admin</p>
                     </div>
                   </div>
