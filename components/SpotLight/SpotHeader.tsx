@@ -30,7 +30,7 @@ const SpotHeader = ({ activeView }: SpotHeaderInterface) => {
         </div>
 
         <p className="text-zinc-500 dark:text-zinc-400 text-lg">
-          Software Developer <span className="text-zinc-300 dark:text-zinc-700 mx-2">|</span> SAP FICO Enthusiast
+          Software Developer <span className="text-zinc-300 dark:text-zinc-700 mx-2">|</span> SAP FICO Certified
         </p>
 
         {/* Quick Social Links (Visible when idle) */}
